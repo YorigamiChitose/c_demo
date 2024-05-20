@@ -1,0 +1,9 @@
+/*
+/*/
+
+!/inc/
+!/src/
+
+!/Makefile
+!/.gitignore
+!/README.md
