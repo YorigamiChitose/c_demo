@@ -40,7 +40,7 @@ all: $(TARGET).elf
 
 run: $(TARGET).elf
 	@echo "$(COLOR_Y)RUN$(COLOR_NO)\t$(COLOR_G)$(patsubst $(BUILD_DIR)/%, %, $<)$(COLOR_NO)"
-	@$(TARGET).elf
+	@$(TARGET).elf $(ARGS)
 
 $(TARGET).elf: $(C_OBJ)
 	@mkdir -p $(dir $@)
